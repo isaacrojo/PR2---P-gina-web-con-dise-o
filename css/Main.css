@@ -1,0 +1,197 @@
+html {
+    cursor: url(./images/cursor-wrangler.png), url(./images/cursor-jeep.png), pointer; 
+}
+body{
+    /*background-color: rgb(65, 114, 206); */
+    background-image: linear-gradient(90deg, #3e7bca, #e7a56ec9);
+    width: 100%;
+    margin-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+/* pagina Index*/
+.index-content {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 5vw;
+    display: block;
+    
+    background-image: url("https://i0.wp.com/www.negociosmagazine.com/wp-content/uploads/2018/10/2018-jeep-wrangler.jpg?resize=1200%2C675");
+    background-color: transparent;
+}
+
+.index-content p { 
+    padding: 8px;
+    background-color: rgba(34, 34, 34, 0.637);
+    color: white;
+}
+.index-p1 {
+    padding: 2vw;
+}
+.index-content p a {
+    color: wheat;
+    padding: 2%;
+}
+
+.gif-container {
+    display: flex;
+}
+.jeep-boomin-gif {
+    padding-top: 242px;
+    max-width: 50%;
+    max-height: 30%;
+    margin: auto;
+    align-items: center;
+}
+
+.jeep-media {
+    display: flex;
+}
+.jeep-so-quiet-video { 
+    margin: auto;
+    width: 80vw;
+    height: 56vw;
+    border: 2px solid rgba(143, 93, 27, 0.281) ;
+    background-color: rgba(224, 175, 102, 0.281);
+}
+
+
+/* pagina de modelos*/
+.models-content { 
+    display: flex; /* elementos hacia derecha*/ 
+}
+.model-container {
+     /* flex: 0 1 150px; /* no stretch */
+    /* flex: 1 1 600px; /* stretch */
+    
+    border: 3px solid black;
+    background-color: rgba(126, 126, 126, 0.329);
+    margin: auto 10px;
+    padding: 4% ;
+    align-items: center;
+}
+.model-container p {
+    background-color: rgba(255, 252, 240, 0.548);
+    margin: 3px;
+}
+.image-model {
+    width: 750px;
+}
+
+/* .models-section1 { 
+     animacion 
+} */
+
+
+/* pagina de offroad*/
+.offroad {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-image: url("https://media1.tenor.com/images/f5098ca080dd387be4be5e68752999de/tenor.gif?itemid=14229797");
+    background-size: 100%;
+}
+.offroad h1 {
+    text-align: center;
+    padding-bottom: 200px;
+}
+.offroad-txt p {
+    background-color: rgba(82, 82, 82, 0.575);
+    padding: 5px 10px;
+}
+.videos-offroad {
+    padding-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+}
+.video { 
+    flex: 1 1 200px; /* stretch */
+    margin: 5px;
+}
+.gif-container {
+    display: flex;
+}
+.offroad-jeep-gif { 
+    align-items: center;
+    margin: auto auto;
+    padding: 15% 1%;
+}
+
+.jeepear-txt {
+    text-align: center;
+    text-shadow: 2px 2px white;
+    padding-bottom: 12%;
+    
+
+}
+
+/* pagina de historia*/
+.historia {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.jeep-history-gif {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.historia h1 {
+    display: flex;
+    justify-content: center;
+}
+.historia p {
+    background-color: rgba(82, 82, 82, 0.575);
+    padding: 5px 40px;
+}
+.media {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* pagina de manuales*/
+.manuales-content {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+
+}
+.manuales-container {
+    width: 100%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%  
+}
+.manuales-jeep {
+
+    justify-content: center;
+}
+
+
+
+footer {
+    grid-template-areas: footer;
+    font: times;
+    font-size: smaller;
+    text-align: center;
+    padding-top: 30px;
+    background-image: linear-gradient(90deg,  #ffffff85,#3e7bca);
+    width: 100%;
+}
+
+/* Media Queries*/
+@media (max-width: 778px) {
+    .media {
+        display: block;
+        width: 100%;
+        justify-content: center;
+    
+    }
+    .index-content {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 0;
+    }
+}
